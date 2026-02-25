@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ro'yxatdan o'tish</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+<div class="form-box">
+
+    <div class="row">
+        <div class="label">
+            <span>*</span> ID (E-mail)
+        </div>
+        <div class="input-box">
+            <input type="email" placeholder="E-mail manzilini kiriting">
+            <button>Tasdiqlash</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="label">
+            <span>*</span> Parol
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Parolni kiriting">
+            <div class="text">
+                ※ Parol kamida 3 xil belgidan iborat bo‘lib (harflar, raqamlar, maxsus belgilar), 
+                kamida 8 ta belgidan iborat bo‘lishi yoki 2 xil belgidan iborat bo‘lib 
+                10 ta yoki undan ortiq belgidan iborat bo‘lishi kerak.<br>
+                Ruxsat etilgan maxsus belgilar: ! @ # $ % ^ & + =
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="label">
+            <span>*</span> Parolni tasdiqlash
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Parolni kiriting">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="label">
+            <span>*</span> Familiya
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="PASPORTDAGI INGLIZCHA FAMILIYA">
+            <div class="text">
+                Kiritayotganda inglizcha bosh harflardan foydalaning va pasport yoki boshqa rasmiy hujjatdagi ismingizni aniq yozing.
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="label">
+            <span>*</span> Ism
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="PASPORTDAGI INGLIZCHA ISM">
+            <div class="text">
+                Kiritayotganda inglizcha bosh harflardan foydalaning va pasport yoki boshqa rasmiy hujjatdagi ismingizni aniq yozing.<br>
+                O‘rtacha ism (middle name)ni ism (first name) qismida bo‘sh joy bilan ajratib yozing.
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="label">
+           <span>*</span> Rasm
+        </div>
+        <div class="input-box" style="display:flex; align-items:center; gap:20px;">
+            <div style="width:120px; height:120px; background:#eee; display:flex; align-items:center; justify-content:center; color:#999; border:1px solid #ccc;">
+                No image
+            </div>
+            <label class="upload-btn">
+                Ro'yhatga olish
+                <input type="file" name="image" accept="image/*" hidden>
+            </label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="label">
+            <span>*</span> Tugilgan sana
+        </div>
+        <div class="input-box" style="display:flex; gap:15px;">
+                <select name="year">
+                    <option>Tanlash</option>
+                    <option>2026</option>
+                    <option>2025</option>
+                    <option>2024</option>
+                    <option>2023</option>
+                    <option>2022</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2010</option>
+                    <option>2005</option>
+                    <option>2000</option>
+                    <option>1995</option>
+                    <option>1990</option>
+                    <option>1985</option>
+                    <option>1980</option>
+                    <option>1975</option>
+                    <option>1970</option>
+                </select>
+
+                <select name="month">
+                    <option>Tanlash</option>
+                    <option value="1">Yanvar</option>
+                    <option value="2">Fevral</option>
+                    <option value="3">Mart</option>
+                    <option value="4">Aprel</option>
+                    <option value="5">May</option>
+                    <option value="6">Iyun</option>
+                    <option value="7">Iyul</option>
+                    <option value="8">Avgust</option>
+                    <option value="9">Sentabr</option>
+                    <option value="10">Oktabr</option>
+                    <option value="11">Noyabr</option>
+                    <option value="12">Dekabr</option>
+                </select>
+
+                <select name="day">
+                    <option>Tanlash</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="label">
+            <span>*</span> Mobil telefon
+        </div>
+        <div class="input-box">
+            <div style="display:flex; gap:15px;">
+                <select style="width:30%;">
+                    <option>Tanlash</option>
+                    <option value="+998">🇺🇿 Uzbekistan (+998)</option>
+                    <option value="+7">🇷🇺 Russia (+7)</option>
+                    <option value="+1">🇺🇸 USA (+1)</option>
+                    <option value="+90">🇹🇷 Turkey (+90)</option>
+                    <option value="+82">🇰🇷 South Korea (+82)</option>
+                    <option value="+81">🇯🇵 Japan (+81)</option>
+                    <option value="+49">🇩🇪 Germany (+49)</option>
+                    <option value="+33">🇫🇷 France (+33)</option>
+                </select>
+                <input type="number" placeholder="Telefon raqamini kiriting" style="width:50%;">
+            </div>
+            <div class="text">
+                ※ Ajratuvchisiz faqat raqamlarni kiriting
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="label">
+            <span>*</span> Millat
+        </div>
+        <div class="input-box">
+            <select style="width:70%;">
+                <option>Tanlash</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+    <div class="label">
+        <span>*</span> E-mail xabarlarni qabul qilish holati
+    </div>
+    <div class="input-box">
+
+        <div class="radio-group">
+            <label>
+                <input type="radio" name="email_status" checked>
+                Ha
+            </label>
+
+            <label>
+                <input type="radio" name="email_status">
+                Yo‘q
+            </label>
+        </div>
+
+        <div class="email-text">
+            Agar Yo‘q belgilansa, elektron pochta orqali xabarnomalar olinmaydi 
+            va baholash bilan bog‘liq e’lonlarni olish cheklanishi mumkin.
+        </div>
+    </div>
+    
+</div>
+    <div style="text-align:center; padding:20px;">
+        <button class="upload-btn">Ro‘yxatga olish</button>
+    </div>
+
+</div>
+
+</body>
+</html>
